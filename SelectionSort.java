@@ -1,15 +1,5 @@
 public class SelectionSort implements Sorter {
 
-    // public static void main(String[] args) {
-
-    //     SelectionSort s = new SelectionSort();
-    //     int[] testInput = { 1, 2, 3, 1 };
-    //     s.sort(testInput);
-    //     for(int i = 0; i < testInput.length; i++) {
-    //         System.out.print(testInput[i] + ", ");
-    //     }
-    // }
-
     public void sort(int[] input) {
         System.out.println("Selection Sort!!!");
         int n = input.length;
